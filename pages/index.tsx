@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-      <FormattedDate value={new Date()} day="numeric" month="long" year="numeric" />
+      <FormattedDate value={new Date()} day="numeric" month="short" year="numeric" />
       </main>
     </>
   )
